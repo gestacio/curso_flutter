@@ -35,7 +35,7 @@ class Review extends StatelessWidget {
         ),
       ),
       Row(
-        children: <Widget>[star2, star2, star2, star2],
+        children: <Widget>[star2, star2, star2, star2, star2],
       )
     ]);
 

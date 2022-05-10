@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'review_list.dart';
 import 'stars.dart';
+import 'button_purple.dart';
+import 'review_list.dart';
 import 'review.dart';
 import 'gradient_back.dart';
 
@@ -19,7 +20,7 @@ class DescriptionPlace extends StatelessWidget {
     final titleStars = Row(
       children: <Widget>[
         Container(
-          margin: const EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
+          margin: const EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
           child: Text(
             namePlace,
             style: const TextStyle(
@@ -48,7 +49,12 @@ class DescriptionPlace extends StatelessWidget {
     );
 
     final descriptionPlace = Column(
-      children: <Widget>[GradientBack(), titleStars, description],
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        titleStars,
+        description,
+        ButtonPurple("Navigate"),
+      ],
     );
 
     return descriptionPlace;

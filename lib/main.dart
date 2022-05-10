@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 import 'description_place.dart';
 import 'review_list.dart';
-import 'gradient_back.dart';
+// import 'gradient_back.dart';
+import 'header_appbar.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(MyApp());
 }
 
@@ -39,11 +44,12 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             ListView(
               children: <Widget>[
-                DescriptionPlace(
-                    "Mónaco", 5, "Este es un buen lugar para visitar"),
+                DescriptionPlace("Mónaco", 5,
+                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \nWhen an unknown printer took a galley of type and scrambled it to make a type specimen book."),
                 ReviewList()
               ],
             ),
+            HeaderAppBar()
           ],
         ),
       ),

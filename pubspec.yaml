@@ -90,6 +90,10 @@ flutter:
 
   assets:
     # - assets/img/perfil.jpg
+    # - assets/img/ac1.jpg
+    # - assets/img/ac2.jpg
+    # - assets/img/ac3.jpg
+    # - assets/img/ac4.jpg
     - assets/img/
 
   fonts:

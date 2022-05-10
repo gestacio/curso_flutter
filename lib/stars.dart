@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 final star = Container(
   margin: const EdgeInsets.only(
-    top: 23.0,
+    top: 323.0,
     right: 3.0,
   ),
   child: const Icon(
@@ -14,7 +14,7 @@ final star = Container(
 
 final starHalf = Container(
   margin: const EdgeInsets.only(
-    top: 23.0,
+    top: 323.0,
     right: 3.0,
   ),
   child: const Icon(
@@ -26,7 +26,7 @@ final starHalf = Container(
 
 final starBorder = Container(
   margin: const EdgeInsets.only(
-    top: 23.0,
+    top: 323.0,
     right: 3.0,
   ),
   child: const Icon(
