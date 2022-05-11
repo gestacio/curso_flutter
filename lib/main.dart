@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:platzi_flutter_application/platzi_trips_cupertino.dart';
+import 'platzi_trips.dart';
 
+import 'home_trips.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 // import 'gradient_back.dart';
@@ -36,23 +39,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: const Text("Platzi App Prueba"),
-        // ),
-        // body: DescriptionPlace("Mónaco", 4.5, textDescription)),
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Mónaco", 5,
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. \nWhen an unknown printer took a galley of type and scrambled it to make a type specimen book."),
-                ReviewList()
-              ],
-            ),
-            HeaderAppBar()
-          ],
-        ),
-      ),
+          // appBar: AppBar(
+          //   title: const Text("Platzi App Prueba"),
+          // ),
+          // body: DescriptionPlace("Mónaco", 4.5, textDescription)),
+          body: PlatziTripsCupertino()),
     );
   }
 }
