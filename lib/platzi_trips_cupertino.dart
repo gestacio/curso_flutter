@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'home_trips.dart';
 import 'profile_trips.dart';
+// import 'profile_trips.dart';
 import 'search_trips.dart';
 
 class PlatziTripsCupertino extends StatelessWidget {
@@ -17,15 +18,15 @@ class PlatziTripsCupertino extends StatelessWidget {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home, color: Colors.indigo),
-            label: "Text",
+            label: "Home",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.search, color: Colors.indigo),
-            label: "Text",
+            label: "Search",
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person, color: Colors.indigo),
-            label: "Text",
+            label: "Profile",
           ),
         ],
       ),

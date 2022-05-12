@@ -44,6 +44,7 @@ class MyApp extends StatelessWidget {
           // ),
           // body: DescriptionPlace("Mónaco", 4.5, textDescription)),
           body: PlatziTripsCupertino()),
+      // body: PlatziTrips()),
     );
   }
 }

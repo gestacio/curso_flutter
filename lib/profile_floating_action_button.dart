@@ -1,22 +1,20 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
-class FloatingActionButtonGreen extends StatefulWidget {
+class ProfileFloatingActionButton extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // ignore: todo
     // TODO: implement createState
 
-    return _FloatingActionButtonGreen();
+    return _ProfileFloatingActionButton();
   }
 }
 
-class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
+class _ProfileFloatingActionButton extends State<ProfileFloatingActionButton> {
   // var icono = Icons.favorite_border;
   bool _es_favorito = false;
 
-  void onPressedFav() {
+  void onPressedFavProfile() {
     setState(() {
       _es_favorito = !_es_favorito;
     });
@@ -36,19 +34,20 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen> {
     // ignore: todo
     // TODO: implement build
 
-    final buttonFavorite = FloatingActionButton(
-      backgroundColor: Colors.green,
-      mini: true,
-      tooltip: "<3",
-      onPressed: onPressedFav,
-      child: Icon(_es_favorito ? Icons.favorite : Icons.favorite_border),
+    final buttonFavorite = SizedBox(
+      height: 30.0,
+      width: 30.0,
+      child: FloatingActionButton(
+        backgroundColor: Colors.green,
+        mini: true,
+        tooltip: "<3",
+        onPressed: onPressedFavProfile,
+        child: Icon(
+          _es_favorito ? Icons.favorite : Icons.favorite_border,
+          size: 20.0,
+        ),
+      ),
     );
-
-    // if (es_favorito) {
-    //   return button_favorite;
-    // } else {
-    //   return button_favorite_border;
-    // }
 
     return buttonFavorite;
   }

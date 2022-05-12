@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'profile_gradient_back.dart';
-// import 'profile_header_appbar.dart';
 import 'profile_front.dart';
+import 'profile_menu_bar.dart';
+import 'profile_info.dart';
+import 'profile_gradient_back.dart';
 
-class ProfileTrips extends StatelessWidget {
-  // const ProfileTrips({Key? key}) : super(key: key);
-
+class ProfileHeaderAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // ignore: todo
