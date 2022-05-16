@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'stars.dart';
-import 'button_purple.dart';
-import 'review_list.dart';
-import 'review.dart';
-import 'gradient_back.dart';
+import 'package:platzi_flutter_application/widgets/button_purple.dart';
+import 'package:platzi_flutter_application/widgets/stars.dart';
 
 class DescriptionPlace extends StatelessWidget {
   late String namePlace;

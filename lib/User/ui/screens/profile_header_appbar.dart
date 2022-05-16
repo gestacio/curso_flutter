@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'profile_front.dart';
-import 'profile_menu_bar.dart';
-import 'profile_info.dart';
 import 'profile_gradient_back.dart';
 
 class ProfileHeaderAppBar extends StatelessWidget {

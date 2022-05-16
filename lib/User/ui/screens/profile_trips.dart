@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:platzi_flutter_application/User/ui/screens/profile_front.dart';
 import 'profile_gradient_back.dart';
-// import 'profile_header_appbar.dart';
-import 'profile_front.dart';
 
 class ProfileTrips extends StatelessWidget {
   // const ProfileTrips({Key? key}) : super(key: key);

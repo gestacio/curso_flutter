@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'search_recomendados.dart';
-import 'search_destinos_mas_buscados.dart';
-import 'search_search_bar.dart';
-import 'search_buscados_recientemente.dart';
+import 'package:platzi_flutter_application/Search/ui/widgets/search_destinos_mas_buscados.dart';
+import 'package:platzi_flutter_application/Search/ui/widgets/search_search_bar.dart';
 
 class SearchFront extends StatelessWidget {
   late String title;

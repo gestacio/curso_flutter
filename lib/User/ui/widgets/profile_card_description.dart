@@ -1,7 +1,5 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter_application/profile_floating_action_button.dart';
+import 'package:platzi_flutter_application/User/ui/widgets/profile_floating_action_button.dart';
 
 class ProfileCardDescription extends StatelessWidget {
   // String pathImage = "assets/img/ac1.jpg";

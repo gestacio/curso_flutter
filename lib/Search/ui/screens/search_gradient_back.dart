@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_flutter_application/search_front.dart';
+import 'package:platzi_flutter_application/Search/ui/screens/search_front.dart';
 
 class SearchGradientBack extends StatelessWidget {
   @override

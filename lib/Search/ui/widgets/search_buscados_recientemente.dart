@@ -51,7 +51,7 @@ class SearchBuscadosRecientemente extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+        children: <Widget>[
           separador,
           textBuscadosRecientemente,
           filaBusqueda,

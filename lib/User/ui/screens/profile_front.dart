@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'profile_info.dart';
-import 'profile_menu_bar.dart';
-import 'profile_card_image.dart';
+import 'package:platzi_flutter_application/User/ui/widgets/profile_card_image.dart';
+import '../widgets/profile_info.dart';
+import '../widgets/profile_menu_bar.dart';
 
 class ProfileFront extends StatelessWidget {
   late String title;
@@ -38,16 +38,5 @@ class ProfileFront extends StatelessWidget {
         ProfileCardImage("assets/img/ac4.jpg"),
       ],
     );
-    // Column(
-    //   children: <Widget>[
-    //     profileTitle,
-    //     ProfileInfo("assets/img/perfil.jpg", "Gabriel Estacio",
-    //         "gestacio1310@gmail.com"),
-    //     ProfileMenuBar(),
-    //     ProfileCardImage("assets/img/ac1.jpg"),
-    //     ProfileCardImage("assets/img/ac3.jpg"),
-    //     ProfileCardImage("assets/img/ac4.jpg"),
-    //   ],
-    // );
   }
 }
